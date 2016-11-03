@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:300,400,700';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,800';
-html, body {
+html,
+body {
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -46,7 +47,8 @@ html, body {
 	font-weight: 400
 }
 
-#topNav .right a:hover, #topNav .right a:focus {
+#topNav .right a:hover,
+#topNav .right a:focus {
 	color: #9900ee;
 	text-decoration: none
 }
@@ -76,7 +78,8 @@ html, body {
 	font-family: 'Open Sans', sans-serif!important
 }
 
-.navbar-nav li a:hover, .navbar-nav li a:focus {
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
 	color: #fff!important
 }
 
@@ -161,7 +164,9 @@ select {
 	color: #ddd
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
 	color: #fff;
 	background-color: #101010;
 	-webkit-box-shadow: inset 0 -2px 0 #9900ee!important;
@@ -216,7 +221,8 @@ input:focus, textarea:focus, select:focus {
 	padding: 10px 10px
 }
 
-#footer .left ul li a:hover, #footer .left ul li a:focus {
+#footer .left ul li a:hover,
+#footer .left ul li a:focus {
 	color: #9900ee;
 	text-decoration: none
 }
@@ -240,7 +246,8 @@ input:focus, textarea:focus, select:focus {
 	color: #9900ee
 }
 
-#homeIntro .col-md-9 p:nth-child(2), #homeIntro .col-md-9 p:nth-child(3) {
+#homeIntro .col-md-9 p:nth-child(2),
+#homeIntro .col-md-9 p:nth-child(3) {
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 22px;
@@ -421,19 +428,28 @@ input:focus, textarea:focus, select:focus {
 	font-family: 'Open Sans', sans-serif!important
 }
 
-.dmcaIssueField, .paymentIssueField {
+.dmcaIssueField,
+.paymentIssueField {
 	display: none
 }
 
-.dmcaIssueField.active, .paymentIssueField.active {
+.dmcaIssueField.active,
+.paymentIssueField.active {
 	display: block
 }
 
-#tos a, #privacy a, #dmca a {
+#tos a,
+#privacy a,
+#dmca a {
 	color: #9900ee
 }
 
-#tos a:hover, #privacy a:hover, #dmca a:hover, #tos a:focus, #privacy a:focus, #dmca a:focus {
+#tos a:hover,
+#privacy a:hover,
+#dmca a:hover,
+#tos a:focus,
+#privacy a:focus,
+#dmca a:focus {
 	color: #ff0000
 }
 
@@ -448,7 +464,11 @@ input:focus, textarea:focus, select:focus {
 	text-transform: uppercase
 }
 
-.heading, .paragraph, .listLetters, .listNumbers, .dmcaList {
+.heading,
+.paragraph,
+.listLetters,
+.listNumbers,
+.dmcaList {
 	text-align: left
 }
 
@@ -460,7 +480,8 @@ input:focus, textarea:focus, select:focus {
 	margin-bottom: 5px
 }
 
-.listLetters, .listNumbers {
+.listLetters,
+.listNumbers {
 	font-size: 14px
 }
 
@@ -474,7 +495,8 @@ input:focus, textarea:focus, select:focus {
 	list-style-type: lower-alpha
 }
 
-.listLetters, .listNumbers {
+.listLetters,
+.listNumbers {
 	margin-top: -12px
 }
 
@@ -487,7 +509,8 @@ input:focus, textarea:focus, select:focus {
 	text-decoration: underline
 }
 
-#error404 p:nth-child(2), #error404 p:nth-child(3) {
+#error404 p:nth-child(2),
+#error404 p:nth-child(3) {
 	text-align: left;
 	padding: 0 25px
 }
@@ -511,7 +534,8 @@ input:focus, textarea:focus, select:focus {
 	color: #9900ee
 }
 
-#error404 a:hover, #error404 a:focus {
+#error404 a:hover,
+#error404 a:focus {
 	color: #ff0000;
 	text-decoration: none
 }
