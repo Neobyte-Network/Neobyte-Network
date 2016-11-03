@@ -1,36 +1,43 @@
 .flex {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .title {
-  font-size: 4em;
-  font-family: 'Montserrat', sans-serif;
+	font-size: 4em;
+	font-family: 'Montserrat', sans-serif;
 }
-.flex div {
-  border: 3px solid #93f;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 3% 5%;;
-margin-left: auto;
-margin-right: auto;
-font-weight: 900;
-  font-size: 2em;
-  -webkit-transition: background-color .3s; /* Safari */
-  -webkit-transition-timing-function: linear; /* Safari */
-  transition: background-color .3s;
-  transition-timing-function: linear;
 
+.flex div {
+	border: 3px solid #93f;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 3% 5%;
+	;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 900;
+	font-size: 2em;
+	-webkit-transition: background-color .3s;
+	/* Safari */
+	-webkit-transition-timing-function: linear;
+	/* Safari */
+	transition: background-color .3s;
+	transition-timing-function: linear;
 }
+
 .flex div:hover {
-    background-color: rgba(153, 51, 255, 0.2);
+	background-color: rgba(153, 51, 255, 0.2);
 }
+
 a {
-  text-decoration: none;
-  color: white;
+	text-decoration: none;
+	color: white;
 }
+
 a:hover {
-  color: #93f;
+	color: #93f;
 }
-  .h2{}
+
+.h2 {}
