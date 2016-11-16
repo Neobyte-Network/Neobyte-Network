@@ -39,7 +39,7 @@ body {
 }
 
 #topNav .right {
-	color: #aaa
+	color: #fff
 }
 
 #topNav .right a {
@@ -174,7 +174,7 @@ select:focus {
 }
 
 #footer {
-	color: #C2C2C2;
+	color: #fff;
 	padding-bottom: 50px;
 	background-position: center top
 }
@@ -189,7 +189,7 @@ select:focus {
 
 #footer .right {
 	text-align: right;
-	margin-top: 30px
+	margin-top: 10px
 }
 
 #footer .left p {
