@@ -3,10 +3,10 @@ function FonixStar( canvas ) {
 		ctx = canvas.getContext( '2d' );
 	_this.config = {
 		star: {
-			color: 'rgba(255, 255, 255, 1.5)'
+			color: 'rgba(255, 0, 0, 5.5)'
 		},
 		line: {
-			color: 'rgba(153, 0, 238, .5)',
+			color: 'rgba(255, 0, 0, .5)',
 			width: 0.9
 		},
 		position: {
@@ -14,9 +14,9 @@ function FonixStar( canvas ) {
 			y: canvas.height * 0.5
 		},
 		velocity: 0.1,
-		length: 400,
+		length: 200,
 		distance: 90,
-		radius: 100,
+		radius: 200,
 		stars: []
 	};
 

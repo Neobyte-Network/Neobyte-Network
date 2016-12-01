@@ -9,7 +9,7 @@ html, body {
 	font-weight: 300;
 	font-size: 15px;
 	color: #fff!important;
-	background-image: url("https://neobyte-network.net/assets/css/images/stars.png");
+	background-image: url("../mrep/bg.jpg");
 }
 
 .left {
@@ -48,7 +48,7 @@ html, body {
 }
 
 #topNav .right a:hover, #topNav .right a:focus {
-	color: #9900ee;
+	color: #FF0000;
 	text-decoration: none
 }
 
@@ -83,7 +83,7 @@ html, body {
 }
 
 .navbar-nav .hvr-underline-from-left:before {
-	background: #9900ee!important
+	background: #FF0000!important
 }
 
 .intro {
@@ -112,7 +112,7 @@ html, body {
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif!important;
 	padding: 15px 15px;
-	border-left: 6px solid #9900ee;
+	border-left: 6px solid #FF0000;
 	background-color: rgba(15, 15, 15, 0.7);
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3)
 }
@@ -137,7 +137,7 @@ html, body {
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif!important;
 	padding: 10px 10px;
-	background-color: #9900ee
+	background-color: #FF0000
 }
 
 .btn {
@@ -149,7 +149,7 @@ html, body {
 }
 
 .btn-danger {
-	border-bottom: 4px solid #6600cc!important
+	border-bottom: 4px solid #FF0000!important
 }
 
 .btn-primary {
@@ -163,8 +163,8 @@ select {
 input:focus, textarea:focus, select:focus {
 	color: #fff;
 	background-color: #101010;
-	-webkit-box-shadow: inset 0 -2px 0 #9900ee!important;
-	box-shadow: inset 0 -2px 0 #9900ee!important
+	-webkit-box-shadow: inset 0 -2px 0 #FF0000!important;
+	box-shadow: inset 0 -2px 0 #FF0000!important
 }
 
 #footer {
@@ -196,7 +196,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 #footer .left p span {
-	color: #9900ee
+	color: #FF0000
 }
 
 #footer .left ul {
@@ -217,7 +217,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 #footer .left ul li a:hover, #footer .left ul li a:focus {
-	color: #9900ee;
+	color: #FF0000;
 	text-decoration: none
 }
 
@@ -232,12 +232,12 @@ input:focus, textarea:focus, select:focus {
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif!important;
 	padding: 15px 15px;
-	border-left: 6px solid #9900ee;
+	border-left: 6px solid #FF0000;
 	background-color: rgba(15, 15, 15, 0.7)
 }
 
 #homeIntro .col-md-9 p:first-child span {
-	color: #9900ee
+	color: #FF0000
 }
 
 #homeIntro .col-md-9 p:nth-child(2), #homeIntro .col-md-9 p:nth-child(3) {
@@ -306,7 +306,7 @@ input:focus, textarea:focus, select:focus {
 	font-size: 16px;
 	margin-left: 15px;
 	padding: 5px 5px;
-	background-color: #9900ee
+	background-color: #FF0000
 }
 
 .newsImg {
@@ -360,13 +360,13 @@ input:focus, textarea:focus, select:focus {
 .statusLeft {
 	text-align: right;
 	padding-right: 25px!important;
-	border-right: 6px solid #9900ee
+	border-right: 6px solid #FF0000
 }
 
 .statusRight {
 	text-align: left;
 	padding-left: 25px!important;
-	border-left: 6px solid #9900ee
+	border-left: 6px solid #FF0000
 }
 
 #status .col-md-9 {
@@ -397,7 +397,7 @@ input:focus, textarea:focus, select:focus {
 #status .statusPageOnline {
 	font-size: 18px;
 	padding: 5px 10px;
-	background-color: #9900ee
+	background-color: #FF0000
 }
 
 #status .statusPageOffline {
@@ -430,7 +430,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 #tos a, #privacy a, #dmca a {
-	color: #9900ee
+	color: #FF0000
 }
 
 #tos a:hover, #privacy a:hover, #dmca a:hover, #tos a:focus, #privacy a:focus, #dmca a:focus {
@@ -512,7 +512,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 #error404 a {
-	color: #9900ee
+	color: #FF0000
 }
 
 #error404 a:hover, #error404 a:focus {
@@ -521,11 +521,11 @@ input:focus, textarea:focus, select:focus {
 }
 
 ::selection {
-	background: #9900ee
+	background: #FF0000
 }
 
 ::-moz-selection {
-	background: #9900ee
+	background: #FF0000
 }
 
 ::-webkit-scrollbar {
@@ -534,7 +534,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #9900ee
+	background: #FF0000
 }
 
 #loader-wrapper {
@@ -573,7 +573,7 @@ input:focus, textarea:focus, select:focus {
 	bottom: 5px;
 	border-radius: 50%;
 	border: 3px solid transparent;
-	border-top-color: #9900ee;
+	border-top-color: #FF0000;
 	-webkit-animation: spin 3s linear infinite;
 	/* Chrome, Opera 15+, Safari 5+ */
 	animation: spin 3s linear infinite;
@@ -589,7 +589,7 @@ input:focus, textarea:focus, select:focus {
 	bottom: 15px;
 	border-radius: 50%;
 	border: 3px solid transparent;
-	border-top-color: #9900ee;
+	border-top-color: #FF0000;
 	-webkit-animation: spin 1.5s linear infinite;
 	/* Chrome, Opera 15+, Safari 5+ */
 	animation: spin 1.5s linear infinite;
@@ -712,7 +712,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 .fa-check {
-	color: #9900ee!important;
+	color: #FF0000!important;
 }
 
 .fa {
