@@ -373,7 +373,8 @@ input:focus, textarea:focus, select:focus {
 	padding: 15px 0;
 	background-color: #171717;
 	margin-top: 15px;
-	margin-bottom: 15px
+	margin-bottom: 15px;
+	width: 800px
 }
 
 #status .col-md-9 p:first-child {
@@ -748,6 +749,6 @@ canvas {
 }
 
 ul {
-	list-style: url(../images/circle.png);
+	list-style: url(../../images/circle.png);
 	list-style-type: circle;
 }
