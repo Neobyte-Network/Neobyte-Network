@@ -1,6 +1,11 @@
-function FonixStar( canvas ) {
+/*
+<!-- ▒█▀▀▀ ▒█▀▀▀█ ▒█▄░▒█ ▀█▀ ▀▄▒▄▀ -->
+<!-- ▒█▀▀▀ ▒█░░▒█ ▒█▒█▒█ ▒█░ ░▒█░░ -->
+<!-- ▒█░░░ ▒█▄▄▄█ ▒█░░▀█ ▄█▄ ▄▀▒▀▄ -->
+*/
+function FonixStar(canvas) {
 	var _this = this,
-		ctx = canvas.getContext( '2d' );
+		ctx = canvas.getContext('2d');
 	_this.config = {
 		star: {
 			color: 'rgba(255, 0, 0, 5.5)'
@@ -23,24 +28,24 @@ function FonixStar( canvas ) {
 	function Star() {
 		this.x = Math.random() * canvas.width;
 		this.y = Math.random() * canvas.height;
-		this.vx = ( _this.config.velocity - ( Math.random() * 0.2 ) );
-		this.vy = ( _this.config.velocity - ( Math.random() * 0.2 ) );
+		this.vx = (_this.config.velocity - (Math.random() * 0.2));
+		this.vy = (_this.config.velocity - (Math.random() * 0.2));
 		this.radius = Math.random();
 	}
 	Star.prototype = {
 		create: function() {
 			ctx.beginPath();
-			ctx.arc( this.x, this.y, this.radius, 0, Math.PI * 2, false );
+			ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
 			ctx.fill();
 		},
 		animate: function() {
 			var i;
-			for ( i = 0; i < _this.config.length; i++ ) {
-				var star = _this.config.stars[ i ];
-				if ( star.y < 0 || star.y > canvas.height ) {
+			for (i = 0; i < _this.config.length; i++) {
+				var star = _this.config.stars[i];
+				if (star.y < 0 || star.y > canvas.height) {
 					star.vx = star.vx;
 					star.vy = -star.vy;
-				} else if ( star.x < 0 || star.x > canvas.width ) {
+				} else if (star.x < 0 || star.x > canvas.width) {
 					star.vx = -star.vx;
 					star.vy = star.vy;
 				}
@@ -54,17 +59,21 @@ function FonixStar( canvas ) {
 				jStar,
 				i,
 				j;
-			for ( i = 0; i < length; i++ ) {
-				for ( j = 0; j < length; j++ ) {
-					iStar = _this.config.stars[ i ];
-					jStar = _this.config.stars[ j ];
+			for (i = 0; i < length; i++) {
+				for (j = 0; j < length; j++) {
+					iStar = _this.config.stars[i];
+					jStar = _this.config.stars[j];
 					if (
-						( iStar.x - jStar.x ) < _this.config.distance && ( iStar.y - jStar.y ) < _this.config.distance && ( iStar.x - jStar.x ) > -_this.config.distance && ( iStar.y - jStar.y ) > -_this.config.distance ) {
+						(iStar.x - jStar.x) < _this.config.distance && (iStar.y - jStar.y) < _this.config.distance &&
+						(iStar.x - jStar.x) > -_this.config.distance && (iStar.y - jStar.y) > -_this.config.distance
+					) {
 						if (
-							( iStar.x - _this.config.position.x ) < _this.config.radius && ( iStar.y - _this.config.position.y ) < _this.config.radius && ( iStar.x - _this.config.position.x ) > -_this.config.radius && ( iStar.y - _this.config.position.y ) > -_this.config.radius ) {
+							(iStar.x - _this.config.position.x) < _this.config.radius && (iStar.y - _this.config.position
+								.y) < _this.config.radius && (iStar.x - _this.config.position.x) > -_this.config.radius &&
+							(iStar.y - _this.config.position.y) > -_this.config.radius) {
 							ctx.beginPath();
-							ctx.moveTo( iStar.x, iStar.y );
-							ctx.lineTo( jStar.x, jStar.y );
+							ctx.moveTo(iStar.x, iStar.y);
+							ctx.lineTo(jStar.x, jStar.y);
 							ctx.stroke();
 							ctx.closePath();
 						}
@@ -77,10 +86,10 @@ function FonixStar( canvas ) {
 		var length = _this.config.length,
 			star,
 			i;
-		ctx.clearRect( 0, 0, canvas.width, canvas.height );
-		for ( i = 0; i < length; i++ ) {
-			_this.config.stars.push( new Star() );
-			star = _this.config.stars[ i ];
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		for (i = 0; i < length; i++) {
+			_this.config.stars.push(new Star());
+			star = _this.config.stars[i];
 			star.create();
 		}
 		star.line();
@@ -95,31 +104,32 @@ function FonixStar( canvas ) {
 		ctx.strokeStyle = _this.config.line.color;
 		ctx.lineWidth = _this.config.line.width;
 	};
-	_this.loop = function( callback ) {
+	_this.loop = function(callback) {
 		callback();
-		reqAnimFrame( function() {
-			_this.loop( function() {
+		reqAnimFrame(function() {
+			_this.loop(function() {
 				callback();
-			} );
-		} );
+			});
+		});
 	};
 	_this.bind = function() {
-		$( window ).on( 'mousemove', function( e ) {
+		$(window).on('mousemove', function(e) {
 			_this.config.position.x = e.pageX;
 			_this.config.position.y = e.pageY;
-		} );
+		});
 	};
 	_this.init = function() {
 		_this.setCanvas();
 		_this.setContext();
-		_this.loop( function() {
+		_this.loop(function() {
 			_this.createStars();
-		} );
+		});
 		_this.bind();
 	};
 	return _this;
 }
-var reqAnimFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function( callback ) {
-	window.setTimeout( callback, 1000 / 60 );
-};
-FonixStar( $( 'canvas' )[ 0 ] ).init();
+var reqAnimFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame ||
+	window.msRequestAnimationFrame || function(callback) {
+		window.setTimeout(callback, 1000 / 60);
+	};
+FonixStar($('canvas')[0]).init();
