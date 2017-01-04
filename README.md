@@ -1,4 +1,4 @@
-# Neobyte-Network
+# Neobyte-Network [![forthebadge](http://forthebadge.com/images/badges/oooo-kill-em.svg)](http://forthebadge.com)
 The Open Source Neobyte Website!
 
 You can find various bits of the site in the source code for it. But please bare in mind this is for private and educational uses only, any attempt to create you own website off of our files its strictly against our agreement and can be investigated further by DMCA or any other trusted assosiate to Neobyte Network
