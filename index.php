@@ -11,10 +11,10 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
-	<link href="http://m.neobyte-network.net/page-1" media="only screen and (max-width: 640px)" rel="alternate">
+	<link href="http://m.neobyte-network.net/page-1" media="only screen and (max-width: 340px)" rel="alternate">
 	<meta content="Neobyte Network, Modded Gaming Network" name="description">
-	<meta content="minecraft, modded, server, Fonix, fonix, _fonix, Mr_Daniel12321, jeff, teamspeak, network, hosted, ovh," name="keywords">
-	<meta content="#D8001C" name="theme-color">
+	<meta content="minecraft, modded, server, Fonix, fonix, _fonix, teamspeak, network, hosted, ovh," name="keywords">
+	<meta content="#FF0000" name="theme-color">
 
 	<title>Neobyte - Home</title>
 	<link href="images/ico/favicons.ico" rel="icon">
@@ -23,7 +23,6 @@
 	<link href="assets/css/animate.css" rel="stylesheet">
 	<link href="assets/css/style-home.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
-	<link href="xmas/snow.css" rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 
@@ -39,10 +38,13 @@
 </head>
 
 <body>
-	<script src="xmas/snow_neobyte.js"></script>
-		<div id="snowflakeContainer">
-	    <p class="snowflake">*</p>
-	</div>
+
+	<div id="topNav">
+		<div class="container">
+			<div class="left">
+				<<p id="headerStatus"><span class="statusOnline"><i class="fa fa-check"></i>&nbsp;KU1 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;KU2 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;KU3 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;VP1 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;VP2 Server</span>&nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;VPA Server</span>
+				</div>
+			</div>
 
 	<canvas>
 	</canvas>
@@ -68,7 +70,7 @@
 	<div id="topNav">
 		<div class="container">
 			<div class="left">
-				<p id="headerStatus"><span class="statusOnline"><i class="fa fa-check"></i>&nbsp;KU1 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;KU2 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;KU3 Server</span> &nbsp;|&nbsp;<i class="fa fa-check"></i>&nbsp;KUX Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;VP1 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;VP2 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;VP3 Server</span> &nbsp;|&nbsp;<span class="statusOnline"><i class="fa fa-check"></i>&nbsp;VP4 Server</span>
+				<
 				</div>
 			</div>
 
@@ -137,13 +139,13 @@
 
 
 			<div class="right">
-				<a href="http://www.dmca.com/Protection/Status.aspx?ID=36516eb9-2e42-46d1-9b80-d329333259e6" title="DMCA.com Protection Status" class="dmca-badge"> <img src="assets/mrep/dmca_protected_sml_120m.png" alt="DMCA.com Protection Status"></a>
+				<a href="http://www.dmca.com/Protection/Status.aspx?ID=36516eb9-2e42-46d1-9b80-d329333259e6" title="DMCA.com Protection Status" class="dmca-badge"> <img src="../assets/mrep/dmca_protected_sml_120m.png" alt="DMCA.com Protection Status"></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
 				<a href="https://www.ovh.com/us/" title="OVH Hosting"> <img src="assets/mrep/logo-ovh.png" alt="OVH Hosting" height="30" width="30"></a>
 				<a href="https://www.buycraft.net" title="Buycraft"> <img src="assets/mrep/logo-buycraft.png" alt="Buycraft" height="30" width="30"></a>
 				<a href="https://www.cloudflare.com" title="Cloudflare"> <img src="assets/mrep/logo-cloudflare.png" alt="Cloudflare" height="30" width="30"></a>
 				<a href="http://www.pufferpanel.com" title="PufferPanel"> <img src="assets/mrep/logo-pufferpanel.png" alt="PufferPanel" height="30" width="30"></a>
 				<a href="https://www.ubuntu.com" title="Ubuntu"> <img src="assets/mrep/logo-ubuntu.png" alt="Ubuntu" height="30" width="30"></a>
-				<p>Copyright &copy; 2016 Neobyte Network | Design:<a href="https://fonix.online"> Fonix</a> </p>
+				<p>Copyright &copy; 2016 Neobyte Network | Design:<a href="https://fonix.online"> _Fonix</a> </p>
 			</div>
 		</div>
 	</div>
