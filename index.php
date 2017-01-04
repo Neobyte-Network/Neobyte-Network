@@ -85,7 +85,7 @@
 		<div class="navbar navbar-inverse navbar-static-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="https://neobyte-network.net"><img alt="Neobyte" src="images/favicon.png" style="width:65px;height:65px;"></a>
+					<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="https://neobyte-network.net"><img alt="Neobyte" src="images/favicon.png?827" style="width:65px;height:65px;"></a>
 				</div>
 
 
@@ -118,7 +118,7 @@
 		.
 
 		<center>
-			<div class="center"><img alt="Logo" class="center" src="assets/mrep/logov2.png">
+			<div class="center"><img alt="Logo" class="center" src="assets/mrep/logov2.png?8787">
 			</div>
 		</center>
 	</div>
