@@ -800,3 +800,8 @@ a {
 a:hover {
 	color: #93f;
 }
+img:hover {
+	transition: .3s all;
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+}

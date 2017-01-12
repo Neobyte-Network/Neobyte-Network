@@ -757,3 +757,8 @@ ul {
 	list-style: url(../images/circle.png);
 	list-style-type: circle;
 }
+img:hover {
+	transition: .3s all;
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+}

@@ -889,3 +889,8 @@ canvas {
 	margin: auto;
 	width: 40%;
 }
+img:hover {
+	transition: .3s all;
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+}
