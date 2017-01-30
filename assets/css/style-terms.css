@@ -466,7 +466,8 @@ input:focus, textarea:focus, select:focus {
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-top: 25px;
-	margin-bottom: 5px
+	margin-bottom: 5px;
+	padding-left: 20px;
 }
 
 .listLetters, .listNumbers {
