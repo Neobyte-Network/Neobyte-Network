@@ -96,7 +96,6 @@ html, body {
 	margin-top: -84px;
 	padding-top: 125px;
 	padding-bottom: 25px;
-	background-image: url(../images/backgrounds/bg2.png);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -110,7 +109,6 @@ html, body {
 }
 
 #pageTitle {
-	width: 300px;
 	text-align: left;
 	font-size: 52px;
 	font-weight: 800;
@@ -123,7 +121,7 @@ html, body {
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3)
 }
 
-.section {
+.section!important {
 	padding: 25px 0
 }
 
@@ -133,6 +131,9 @@ html, body {
 
 .sectionColor .container {
 	padding: 0!important;
+	border-bottom-width: 1px;
+  border-color: #FF0000;
+  border-style: solid;
 	background-color: #131313;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3)
 }
@@ -176,12 +177,14 @@ input:focus, textarea:focus, select:focus {
 #footer {
 	color: #C2C2C2;
 	padding-bottom: 50px;
-	background-image: url(../images/backgrounds/blood.png);
 	background-position: center top
 }
 
 #footer .container {
-	padding: 15px 15px!important
+	padding: 15px 15px!important;
+	border-bottom-width: 0.5px;
+  border-color: #FF0000;
+  border-style: solid;
 }
 
 #footer .left {
@@ -372,7 +375,7 @@ input:focus, textarea:focus, select:focus {
 .statusRight {
 	text-align: left;
 	padding-left: 25px!important;
-	border-left: 6px solid #FF0000
+	border-left: 20px solid #111
 }
 
 #status .col-md-9 {
@@ -754,7 +757,7 @@ canvas {
 }
 
 ul {
-	list-style: url(../images/circle.png);
+	list-style: url(../../images/circle.png);
 	list-style-type: circle;
 }
 img:hover {
