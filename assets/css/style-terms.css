@@ -498,6 +498,10 @@ input:focus, textarea:focus, select:focus {
 	text-align: center;
 	background-color: #222;
 	margin-top: 35px;
+	border-bottom-width: 0.5px;
+	border-color: #FF0000;
+	border-style: solid;
+	border-width: 0.5px;
 }
 
 #error404 p:nth-child(2), #error404 p:nth-child(3) {
