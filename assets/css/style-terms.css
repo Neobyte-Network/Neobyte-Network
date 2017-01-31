@@ -354,7 +354,6 @@ input:focus, textarea:focus, select:focus {
 
 .map img {
 	width: 100%;
-	height: 350px
 }
 
 .map p:nth-child(3) a {
