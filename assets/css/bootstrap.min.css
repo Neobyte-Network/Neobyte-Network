@@ -5984,7 +5984,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 p {
-	margin: 0 0 1em
+	margin: 0 0 1em;
+	padding-left: 15px;
 }
 input, button {
 	-webkit-font-smoothing: antialiased;
